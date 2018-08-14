@@ -1,0 +1,45 @@
+.partners * {
+    width: 10em;
+    max-height: 4em;
+}
+.partners {
+    display: inline-block;
+}
+.links {
+    max-width: 300px;
+}
+#navlinks {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: flex-end;
+}
+.gallery > div {
+    max-width: 33%;
+    display: inline-block;
+}
+.gallery > div > * {
+    max-width: 100%;
+}
+.gallery > div > div {
+    width: 33%;
+    height: 150px;
+    position: absolute;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content:space-around;
+}
+.visita {
+    display:inline-block;
+}
+.visita > * {
+  height: 20%;
+}
+.tecnology > div{
+    display: inline-block;
+    max-width: 50%;
+}
+.tecnology > div > img {
+    justify-content: center;
+    width: 40%;
+}
