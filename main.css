@@ -22,8 +22,8 @@ a {
     color: gray;
 }
 .img-gray { filter: grayscale(100%); }
-.links{
-    width: 40em;
+.links {
+    width: 30em;
     display: flex;
     justify-content: space-around;
     padding: 2em;
@@ -34,7 +34,7 @@ a {
 }
 .apps > a > div {
     width: 25%;
-    height: 18em;
+    height: 15em;
     background-color: #7BA4AB;
     color: white;
     display: inline-flex;
@@ -54,6 +54,7 @@ a {
     display: inline-block;
 }
 .gallery .container > * {
+    height: 18em;
     max-width: 100%;
     display: block;
 }
@@ -159,4 +160,14 @@ footer {
 header>nav>.links>a:hover { 
     color:rgb(9, 59, 209);
     text-shadow: -5px -5px -5px rgb(8, 105, 105);
+}
+.acercade{
+     align-content: center;
+     width: 100%;
+     display: flex;
+}
+.texta {
+    align-content: space-between;
+    width: 50%;
+    margin: auto;
 }
