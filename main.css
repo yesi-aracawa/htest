@@ -1,40 +1,90 @@
-.partners * {
-    width: 10em;
-    max-height: 4em;
+* {
+    box-sizing: border-box;
 }
-.partners {
-    display: inline-block;
+body {
+    margin: 0;
 }
-.links {
-    max-width: 300px;
-}
-#navlinks {
+header {
+    height: 640px;
+    background-image: url("3E2.jpg");
+    background-repeat: no-repeat;
     display: flex;
-    position: absolute;
+}
+nav {
+    top: 0%;
     width: 100%;
+    display: flex;
     justify-content: flex-end;
 }
+a {
+    text-decoration: none;
+    font-size: .8em;
+    color: gray;
+}
+.img-gray { filter: grayscale(100%); }
+.links{
+    width: 40em;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+.apps {
+    background-color: slategrey;
+    width: 100%;
+}
+.apps > a > div {
+    width: 25%;
+    height: 18em;
+    background-color: #7BA4AB;
+    color: white;
+    display: inline-flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.apps > a > div:hover{
+    background-color: slategray;
+}
+.stack {
+    display: block;
+    justify-content: center;
+}
 .gallery .container {
-    max-width: 33%;
+    max-width: 32%;
     display: inline-block;
 }
 .gallery .container > * {
     max-width: 100%;
     display: block;
 }
-.visita {
-    display:inline-block;
+.banner {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 1em;
 }
-.visita > * {
+.partners * {
+    width: 12%;
+    max-height: 6em;
+    padding: .8em;
+}
+.visita, .contactanos {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.visita > *, .contactanos > * {
   height: 20%;
 }
-.tecnology > div{
-    display: inline-block;
-    max-width: 50%;
+.tecnology {
+    height: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .tecnology > div > img {
-    justify-content: center;
-    width: 40%;
+    width: 9em;
 }
 .container {
     position: relative;
@@ -86,7 +136,27 @@
 }
 .galinks:hover {
     background: rgb(255, 255, 255);
-    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     color: black;
+}
+footer {
+    display: block;
+    box-sizing: border-box;
+    padding: .5em;
+}
+.reservado {
+    float: left;
+}
+.atajos {
+    display: inline-flex;
+    align-content: center;
+    float: right;
+}
+.atajos * {
+    max-width: 1em;
+    margin: 1em;
+}
+header>nav>.links>a:hover { 
+    color:rgb(9, 59, 209);
+    text-shadow: -5px -5px -5px rgb(8, 105, 105);
 }
